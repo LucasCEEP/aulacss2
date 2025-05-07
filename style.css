@@ -1,0 +1,25 @@
+/*Arquivo css da Aula de desenvolvimento para a internet UNIPAR*/
+/*reset CSS: Importante para o funcionamento correto do CSS*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*variáveis CSS*/
+/*posso usar variáveis CSS para definir cores, fontes, etc*/
+:root {
+    --primary-color: #4CAF50;
+    --font-size: 12px;
+}
+/*componentes*/
+/*  que sao os componentes: botões, formulários, inputs, selects, etc...*/
+button {
+    background-color: blue;
+    color: azure;
+    padding: 2%;
+    text-align: center;
+    height: 10%;
+    width: 50%;
+    min-height: 100px;
+    max-height: 500px;
+}
